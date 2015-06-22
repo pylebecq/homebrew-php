@@ -59,4 +59,15 @@ class AbstractPhpVersion < Formula
                         :sha256 => '0a579c81c724ea41815eee0caa8ea7d8eeb302458519d8cc4fc5b055577c8c45',
                       }
   end
+
+  module Php70Defs
+    PHP_SRC_TARBALL = 'https://downloads.php.net/~ab/php-7.0.0alpha1.tar.xz'
+    PHP_GITHUB_URL  = 'https://github.com/php/php-src.git'
+    PHP_VERSION     = '7.0.0-alpha1'
+    PHP_BRANCH      = 'PHP-7.0'
+
+    PHP_CHECKSUM    = {
+                        :sha256 => '241245f438531bca27c2be527b90918b2b007349e20334b47652a294085a9b7d',
+                      }
+  end
 end
